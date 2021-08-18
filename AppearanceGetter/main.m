@@ -6,11 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#include <AppKit/NSAppearance.h>
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSAppearance* a = [NSAppearance currentDrawingAppearance];
+        puts(a.name.UTF8String);
     }
     return 0;
 }
