@@ -10,8 +10,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSAppearance* a = [NSAppearance currentDrawingAppearance];
-        puts(a.name.UTF8String);
+        puts(NSAppearance.currentDrawingAppearance.name.UTF8String);
     }
     return 0;
 }
