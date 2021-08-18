@@ -1,2 +1,2 @@
 # AppearanceGetter
-Command line tool to get current NSAppearance name.
+Command line tool to print `NSAppearance.currentDrawingAppearance.name`.
